@@ -1,0 +1,266 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+.background{
+	background-color: #fdfdfd;
+	width: 100%;
+	height: 220vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu{
+	background-color: #fdfdfd;
+	width: 95%;
+	height: 10vh;
+	margin-top: 2vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo{
+    width: 7%;
+    height: 75%;
+    
+}
+.logoajuste{
+	width: 100%;
+	height: 100%;
+}
+.ferramentas{
+	width:10%;
+	height: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.icone{
+	width: 15%;
+	height: 100%;
+}
+.icone1{
+	width: 15%;
+	height: 100%;
+}
+.topo{
+	background-color: #7c0629;
+	width: 95%;
+    height: 70vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.a{
+	width: 75%;
+	height: 75%;
+	align-self: center;
+
+
+}
+.b{
+	width: 25%;
+	height: 75%;
+	
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.destaque{
+	background-color: orange;
+	width: 85%;
+	height: 100%;
+	margin-left: 2vw;
+}
+.tabela{
+    width: 100%;
+    height: 100%;
+}
+.img1{
+	background-color: orange;
+	width: 90%;
+	height: 45%;
+
+}
+.img2{
+	background-color: orange;
+	width: 90%;
+	height: 45%;
+
+}
+.foto{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+.inferior{
+	background-color: #7c0629;
+	width: 95%;
+	height: 140vh;
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: row;
+}
+.exposição{
+	background-color: #7c0629;
+	width: 25%;
+	height: 95%;
+	margin-left: 2vw;
+	align-self: center;
+}
+.anuncio{
+	width: 100%;
+	height: 100%;
+}
+.noticias{
+	background-color: #7c0629;
+	width: 75%;
+	height: 95%;
+	margin-left: 5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-self: center;
+	margin-right: 2vw;
+}
+.texto{
+	background-color: #7c0629;
+	width: 100%;
+	height: 20%;
+	margin-left: 1vw;
+}
+.materia{
+	background-color: #7c0629;
+	width: 100%;
+	height: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.espaço1{
+    background-color: #7c0629;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.espaço2{
+    background-color: #7c0629;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.a1{
+	background-color: #7c0629;
+	width: 30%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.imagem{
+    background-color: #7c0629;
+    width: 100%;
+    height: 60%;
+}
+.texto1{
+    background-color: #7c0629;
+    width: 100%;
+    height: 30%;
+}
+.cor{
+	color: white;
+	font-size: 25px;
+}
+.marrocos{
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 700px){
+	.logo{
+		width:10%;
+		height: 50%;
+	}
+	.icone{
+		display: none;
+	}
+	.icone1{
+		width: 50%;
+		margin-left: 5vw;
+	}
+	.topo, .inferior{
+		flex-wrap: wrap;
+		justify-content:  center;
+
+	}
+	 .a{
+		width: 100%;
+		height: 50%;
+		margin-left: 10vw;
+		margin-top: 2vh;
+
+	}
+	.b{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width:80%;
+		height: 50%;
+	}
+	.img1, .img2{
+		width: 43%;
+		margin-left: 1vw;
+
+	}
+	.inferior{
+		height: 150vh;
+	}
+
+	.texto{
+		width: 90%;
+		margin-left: 4vw;
+	}
+	
+
+	.exposição, .anuncio{
+		display: none;
+	}
+	.noticias{
+		width: 100%;
+		height: 100%;
+	}
+	.a1{
+		width: 35%;
+		height: 25vh;
+	}
+	.espaço1{
+        flex-wrap: wrap;
+	}
+	.espaço2{
+		flex-wrap: wrap;
+	}
+	.cor{
+		font-size: 15px;
+	}
+
+}
+	
+
+
+
+
+
